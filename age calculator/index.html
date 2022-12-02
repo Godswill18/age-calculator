@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AGE CALCULATOR</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+	<body>
+
+		<h1>AGE CALCULATOR</h1><br>
+			<p id="Pin">Please input your date of birth </p>
+			<input type="date" name="date" id="input-el" max="2022-01-01" onfocus="this.max=new Date().toISOString().split('T')[0]">
+			<br>
+			<br>
+
+			<button id="cal-Btn" >CALCULATE</button><br><br>
+
+			<p id="output"></p>
+			
+		
+			
+
+		<script src="index.js"></script>
+	</body>
+</html>
